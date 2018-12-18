@@ -1,0 +1,7 @@
+jenkins_demo.greeting:
+  path: '/jenkins_demo/greeting'
+  defaults:
+    _controller: '\Drupal\jenkins_demo\Controller\JenkinsController::greeting'
+    _title: 'Greeting'
+  requirements:
+    _permission: 'access content'

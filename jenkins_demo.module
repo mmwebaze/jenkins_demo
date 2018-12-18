@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains jenkins_demo.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function jenkins_demo_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the jenkins_demo module.
+    case 'help.page.jenkins_demo':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Testing jenkins') . '</p>';
+      return $output;
+
+    default:
+  }
+}

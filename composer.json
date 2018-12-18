@@ -1,0 +1,14 @@
+{
+  "name": "drupal/jenkins_demo",
+  "type": "drupal-module",
+  "description": "Testing jenkins",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/jenkins_demo",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/jenkins_demo",
+    "source": "http://cgit.drupalcode.org/jenkins_demo"
+  },
+  "require": { }
+}

@@ -1,0 +1,5 @@
+name: 'jenkins_demo'
+type: module
+description: 'Testing jenkins'
+core: 8.x
+package: 'Custom'
